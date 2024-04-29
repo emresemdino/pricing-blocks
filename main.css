@@ -1,0 +1,110 @@
+body {
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.pricing {
+    display: inline-block;
+}
+
+.title {
+    color: rgb(38, 131, 132);
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sub-title {
+    text-align: center;
+    color: rgb(80, 77, 77);
+}
+
+.blocks {
+    display: flex;
+    padding-top: 2rem;
+}
+
+h3 ,h1 {
+    text-align: center;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h3 {
+    color: grey;
+    font-size: 1.5rem;
+}
+
+h1 {
+    color: rgb(38, 131, 132);
+    margin-top: -0.6rem;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.super-title {
+    color: white;
+}
+
+span {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.block-1, .block-2, .block-3 {
+    background-image:linear-gradient( rgb(250, 236, 236), rgb(247, 234, 234)) ;
+    border-radius: 0.7rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 1rem;
+    height: 100%;
+}
+
+.block-2 {
+    background-image: linear-gradient(rgb(38, 131, 132),rgb(134, 236, 236))!important;
+}
+
+a {
+    border-radius: 0.2rem;
+    font-weight: 0.5rem;
+    background-color: rgb(80, 77, 77);
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 5rem;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.super-button {
+    background-color: white;
+    color: rgb(80, 77, 77);
+}
+
+.super-p {
+    color: white!important;
+}
+
+.different {
+    font-weight: lighter;
+    color: grey;
+}
+
+.touch {
+    background-color: rgb(80, 77, 77);
+    font-size: 0.8rem;
+    font-weight: 0;
+    padding: 0.5rem;
+    word-spacing: 0.1rem;
+}
